@@ -84,7 +84,13 @@
         margin-left: 26% !important;
     }
     #sidebar{
-        width: 15%;
+        width: 19%;
+    }
+    #codepen{
+        display: none;
+    }
+    .cplink{
+        display: block !important;
     }
   }
 .headings{
@@ -178,11 +184,12 @@
 }
 #codepen{
     width: 30%;
+    /* height: 0; */
     margin-left: 4%;
     border: 3px solid black;
     background: black;
     position: relative;
-    top: 70px;
+    top: 69px;
 }
 #projectstitle{
     margin-bottom: 40px;
@@ -254,4 +261,18 @@
     left: 1.75%;
     top: -20px;
     padding-bottom: 40px;
+}
+.cplink{
+    font-size: 10px !important;
+    position: relative;
+    top: 40px;
+    text-align: left;
+    left: 7%;
+    display: none;
+}
+
+.cplink a{
+    color: white !important;
+    text-decoration: none;
+    text-shadow: none;
 }
